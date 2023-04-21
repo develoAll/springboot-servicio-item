@@ -26,6 +26,13 @@ public class Item {
 		this.cantidad = cantidad;
 	}
 	
+	public String getTexto() {
+		return "Este es una prueba";
+	}
+	
+	public Double getTotal() {
+		return producto.getPrecio()* cantidad.doubleValue();
+	}
 	
 
 }
